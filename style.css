@@ -18,8 +18,8 @@
   --accent-deep: #2C4230;
   --accent-tint: #E9EEE6;
   --rule: #DBD8CD;
-  --max-w: 760px;
-  --side-pad: 6vw;
+  --max-w: 920px;
+  --side-pad: 5vw;
 }
 
 *{ box-sizing: border-box; }
@@ -191,7 +191,7 @@ main{
   color: var(--ink-soft);
   font-size: 17px;
   margin: 0;
-  max-width: 56ch;
+  max-width: 70ch;
 }
 
 .abstract-label{
@@ -207,6 +207,7 @@ main{
 .abstract{
   color: var(--ink);
   font-size: 16.5px;
+  max-width: 68ch;
 }
 
 .tags{
