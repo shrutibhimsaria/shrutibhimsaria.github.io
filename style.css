@@ -451,3 +451,16 @@ details.more .more-body p{
   margin: 0 0 10px;
 }
 details.more .more-body p:last-child{ margin-bottom: 0; }
+
+.read-more{
+  display: inline-block;
+  margin-top: 6px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--accent-deep);
+  padding-bottom: 2px;
+  border-bottom: 1px solid var(--accent);
+}
+.read-more:hover{ color: var(--accent); text-decoration: none; }
