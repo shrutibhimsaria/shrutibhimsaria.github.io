@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Shruti Bhimsaria</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="site-title" href="index.html">Shruti Bhimsaria</a>
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="research.html">Research</a>
+      <a href="cv.html">CV</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <span class="label">Contact</span>
+  <h1 style="font-size:34px; margin-top:10px;">Get in touch</h1>
+  <p style="color:var(--ink-soft); max-width:56ch; margin-top:14px;">
+    Happy to hear from collaborators, funders, journalists, and prospective students. The fastest way to reach me is email.
+  </p>
+
+  <ul class="contact-list" style="margin-top:32px;">
+    <li>
+      <span class="k">Email</span>
+      <span><a href="mailto:s.bhimsaria@lse.ac.uk">[your.name]@lse.ac.uk</a></span>
+    </li>
+    <li>
+      <span class="k">Institution</span>
+      <span>STICERD, London School of Economics, Houghton Street, London WC2A 2AE</span>
+    </li>
+    <li>
+      <span class="k">LinkedIn</span>
+      <span><a href="#">linkedin.com/in/[your-handle]</a></span>
+    </li>
+    <li>
+      <span class="k">X / Twitter</span>
+      <span><a href="#">@[your-handle]</a></span>
+    </li>
+    <li>
+      <span class="k">Google Scholar</span>
+      <span><a href="#">[link]</a></span>
+    </li>
+  </ul>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <span>© <span id="year"></span> Shruti Bhimsaria</span>
+    <span>London, UK</span>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
