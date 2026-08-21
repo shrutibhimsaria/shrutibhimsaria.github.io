@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://shrutibhimsaria.github.io/sitemap.xml
