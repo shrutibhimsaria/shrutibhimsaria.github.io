@@ -89,6 +89,7 @@ h1, h2, h3{
   height: 34px;
   border-radius: 50%;
   object-fit: cover;
+  object-position: center 15%;
   border: 1px solid var(--rule);
   flex-shrink: 0;
 }
@@ -175,6 +176,7 @@ main{
   height: 208px;
   border-radius: 50%;
   object-fit: cover;
+  object-position: center 15%;
   border: 1px solid var(--rule);
   flex-shrink: 0;
 }
